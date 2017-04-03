@@ -4,16 +4,13 @@ var colors = [
   '#588C8C', // Blue
   '#F5D8A2'  // DarkBlue
 ];
+
 var couleur;
 
 var params = {
   width: 0,
   height: 0,
   strokeWeight: 0
-}
-
-var paramsTriange = {
-
 }
 
 var song;
@@ -38,14 +35,6 @@ function draw(){
   stroke(couleur);
   strokeWeight(params.strokeWeight);
   ellipse(width/2, height/2, params.width);
-
-  /*
-  triangle(
-    width*1/3, height*2/3,
-    width/2, height/3,
-    width*2/3, height*2/3
-  )
-  */
 }
 
 // si le click est activé
